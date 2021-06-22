@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #main {
+     width: 1200px;
+     background: url(./images/bg2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 30px 0;
+     margin: 30px auto;
+     border-radius: 14px;
+    box-shadow: 4px 6px 20px black;
+ }
+ #form {
+     width: 400px;
+     height: auto;
+     margin: 0 auto;
+     text-align: center;
+ }
+ #form h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ #form .form-group {
+     margin: 16px auto;
+     width: 100%;
+ }
+ .form-group label {
+     display: block;
+     font-size: 20px;
+     text-align: left;
+     font-weight: bold;
+     margin-bottom: 10px;
+     letter-spacing: 1px;
+ }
+ .form-group input, input:focus {
+     width: 100%;
+     padding: 10px;
+     outline: none;
+     margin-bottom: 10px;
+     border: none;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+     background: transparent;
+     color: white;
+     font-size: 18px;
+ }
+ .form-group input[type="submit"] {
+     width: 160px;
+     border-radius: 10px;
+     display: inline-block;
+     /* background-color:#FFD700; */
+     background: linear-gradient(to right,#f9cc59,#FFD700);
+     color: black;
+     margin-top: 20px;
+     cursor: pointer;
+     border: none;
+     font-weight: bold;
+ }
+ span {
+     color: red;
+     font-weight: lighter;
+     font-style: italic;
+ }
+ /* .error {
+     border: 1px solid red;
+ }
+ .success {
+     border: 2px solid blue;
+ } */
